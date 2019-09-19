@@ -1,0 +1,1132 @@
+2019-09-16 10:10:34,729 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2019-09-16 10:10:34,776 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2019-09-16 10:10:34,777 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2019-09-16 10:10:34,777 INFO o.a.j.JMeter: Setting System property: java.rmi.server.hostname=172.168.3.78
+2019-09-16 10:10:34,777 INFO o.a.j.JMeter: Setting System property: server_port=1099
+2019-09-16 10:10:34,787 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2019-09-16 10:10:34,788 INFO o.a.j.JMeter: Version 5.1.1 r1855137
+2019-09-16 10:10:34,788 INFO o.a.j.JMeter: java.version=11.0.4
+2019-09-16 10:10:34,788 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2019-09-16 10:10:34,788 INFO o.a.j.JMeter: os.name=Linux
+2019-09-16 10:10:34,788 INFO o.a.j.JMeter: os.arch=amd64
+2019-09-16 10:10:34,788 INFO o.a.j.JMeter: os.version=4.15.0-51-generic
+2019-09-16 10:10:34,788 INFO o.a.j.JMeter: file.encoding=UTF-8
+2019-09-16 10:10:34,789 INFO o.a.j.JMeter: java.awt.headless=true
+2019-09-16 10:10:34,789 INFO o.a.j.JMeter: Max memory     =1073741824
+2019-09-16 10:10:34,789 INFO o.a.j.JMeter: Available Processors =4
+2019-09-16 10:10:34,804 INFO o.a.j.JMeter: Default Locale=English (EN)
+2019-09-16 10:10:34,804 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2019-09-16 10:10:34,804 INFO o.a.j.JMeter: JMeterHome=/home/ubuntu/Desktop/apache-jmeter-5.1.1
+2019-09-16 10:10:34,805 INFO o.a.j.JMeter: user.dir  =/home/ubuntu/Desktop/apache-jmeter-5.1.1/bin
+2019-09-16 10:10:34,805 INFO o.a.j.JMeter: PWD       =/home/ubuntu/Desktop/apache-jmeter-5.1.1/bin
+2019-09-16 10:10:34,805 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: ubuntu-virtual-machine FullName: ubuntu-virtual-machine
+2019-09-16 10:10:34,823 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2019-09-16 10:10:34,824 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2019-09-16 10:10:34,997 INFO o.a.j.e.RemoteJMeterEngineImpl: Starting backing engine on 1099
+2019-09-16 10:10:34,998 INFO o.a.j.r.RmiUtils: Resolving by name the value of System property 'java.rmi.server.hostname': 172.168.3.78
+2019-09-16 10:10:34,998 INFO o.a.j.r.RmiUtils: Local IP address=172.168.3.78
+2019-09-16 10:10:34,998 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating RMI registry (server.rmi.create=true)
+2019-09-16 10:10:34,998 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2019-09-16 10:10:34,998 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2019-09-16 10:10:35,002 INFO o.a.j.e.RemoteJMeterEngineImpl: Bound to RMI registry on port 1099
+2019-09-16 10:11:02,827 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 10:11:02,845 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 10:11:02,845 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 10:11:02,846 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 10:11:02,846 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 10:11:02,847 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 10:11:02,847 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 10:11:02,847 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 10:11:02,847 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 10:11:02,899 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 10:11:02,900 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 10:11:02,935 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 10:11:02,936 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 10:11:02,945 INFO o.a.j.s.FileServer: Default base='/home/ubuntu/Desktop/apache-jmeter-5.1.1/bin'
+2019-09-16 10:11:02,948 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 10:11:02,956 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 10:11:02,961 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 10:11:02,977 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 10:11:02,979 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 10:11:03,000 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-09-16 10:11:03,001 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-09-16 10:11:03,779 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientSet
+2019-09-16 10:11:03,780 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group TestRpcxClientSet.
+2019-09-16 10:11:03,780 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 10:11:03,780 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2019-09-16 10:11:03,793 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 10:11:03,801 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 10:11:03,802 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 10:11:03,814 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 10:11:03,815 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 10:11:03,886 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-2
+2019-09-16 10:11:03,896 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-2
+2019-09-16 10:11:03,897 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-2
+2019-09-16 10:11:03,985 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-3
+2019-09-16 10:11:03,998 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-3
+2019-09-16 10:11:04,000 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-3
+2019-09-16 10:11:04,084 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-4
+2019-09-16 10:11:04,096 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-4
+2019-09-16 10:11:04,096 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-4
+2019-09-16 10:11:04,183 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-5
+2019-09-16 10:11:04,194 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-5
+2019-09-16 10:11:04,194 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-5
+2019-09-16 10:11:04,283 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-6
+2019-09-16 10:11:04,293 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-6
+2019-09-16 10:11:04,294 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-6
+2019-09-16 10:11:04,384 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-7
+2019-09-16 10:11:04,397 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-7
+2019-09-16 10:11:04,397 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-7
+2019-09-16 10:11:04,487 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-8
+2019-09-16 10:11:04,497 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-8
+2019-09-16 10:11:04,498 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-8
+2019-09-16 10:11:04,586 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-9
+2019-09-16 10:11:04,600 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-9
+2019-09-16 10:11:04,601 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-9
+2019-09-16 10:11:04,683 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-10
+2019-09-16 10:11:04,694 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-10
+2019-09-16 10:11:04,694 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-10
+2019-09-16 10:11:04,699 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-09-16 10:11:04,700 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:11:04,700 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:11:04,707 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:11:04,708 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:11:04,712 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:11:04,713 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:11:04,720 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:11:04,720 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:11:04,725 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:11:04,726 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:11:04,740 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 172.168.3.78:1099 
+2019-09-16 10:12:54,413 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 10:12:54,415 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 10:12:54,415 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 10:12:54,415 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 10:12:54,464 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 10:12:54,464 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 10:12:54,466 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 10:12:54,467 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 10:12:54,467 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 10:12:54,467 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 10:12:54,488 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 10:12:54,489 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 10:12:54,489 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 10:12:54,502 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2019-09-16 10:12:54,503 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 10:12:54,507 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 10:12:54,508 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 10:12:54,509 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 10:12:54,680 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientSet
+2019-09-16 10:12:54,680 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group TestRpcxClientSet.
+2019-09-16 10:12:54,680 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 10:12:54,681 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2019-09-16 10:12:54,681 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 10:12:54,681 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 10:12:54,682 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 10:12:54,701 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 10:12:54,701 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 10:12:54,705 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-09-16 10:12:54,706 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:12:54,706 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:12:54,716 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:12:54,716 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:12:54,723 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:12:54,723 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:12:54,728 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:12:54,728 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:12:54,736 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:12:54,736 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:12:54,747 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 172.168.3.78:1099 
+2019-09-16 10:13:16,370 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 10:13:16,371 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 10:13:16,373 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 10:13:16,373 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 10:13:16,374 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 10:13:16,374 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 10:13:16,376 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 10:13:16,376 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 10:13:16,395 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 10:13:16,395 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 10:13:16,395 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 10:13:16,402 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2019-09-16 10:13:16,403 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 10:13:16,408 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 10:13:16,409 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 10:13:16,410 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 10:13:16,520 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientSet
+2019-09-16 10:13:16,521 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group TestRpcxClientSet.
+2019-09-16 10:13:16,521 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 10:13:16,521 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2019-09-16 10:13:16,522 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 10:13:16,522 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 10:13:16,522 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 10:13:16,535 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 10:13:16,536 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 10:13:16,540 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-09-16 10:13:16,541 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:13:16,541 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:13:16,546 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:13:16,548 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:13:16,554 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:13:16,554 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:13:16,566 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:13:16,566 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:13:16,579 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 172.168.3.78:1099 
+2019-09-16 10:13:29,059 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 10:13:29,060 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 10:13:29,100 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 10:13:29,100 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 10:13:29,101 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 10:13:29,106 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2019-09-16 10:13:29,106 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 10:13:29,112 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 10:13:29,116 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 10:13:29,117 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 10:13:29,168 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientSet
+2019-09-16 10:13:29,168 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group TestRpcxClientSet.
+2019-09-16 10:13:29,168 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 10:13:29,168 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2019-09-16 10:13:29,169 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 10:13:29,169 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 10:13:29,169 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 10:13:29,182 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 10:13:29,183 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 10:13:29,187 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-09-16 10:13:29,187 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:13:29,187 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:13:29,198 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 172.168.3.78:1099 
+2019-09-16 10:13:38,585 INFO o.a.j.e.RemoteJMeterEngineImpl: Stopping test ...
+2019-09-16 10:13:38,586 INFO o.a.j.e.RemoteJMeterEngineImpl: ... stopped
+2019-09-16 10:13:43,232 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 10:13:43,233 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 10:13:43,249 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 10:13:43,249 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 10:13:43,249 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 10:13:43,260 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2019-09-16 10:13:43,261 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 10:13:43,266 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 10:13:43,267 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 10:13:43,268 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 10:13:43,314 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientSet
+2019-09-16 10:13:43,315 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group TestRpcxClientSet.
+2019-09-16 10:13:43,315 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 10:13:43,315 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2019-09-16 10:13:43,316 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 10:13:43,316 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 10:13:43,317 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 10:13:43,339 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 10:13:43,339 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 10:13:43,346 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-09-16 10:13:43,346 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:13:43,346 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:13:43,361 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 172.168.3.78:1099 
+2019-09-16 10:14:08,303 INFO o.a.j.e.RemoteJMeterEngineImpl: Stopping test ...
+2019-09-16 10:14:08,304 INFO o.a.j.e.RemoteJMeterEngineImpl: ... stopped
+2019-09-16 10:14:10,692 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-09-16 10:14:10,693 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-09-16 10:14:10,693 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-09-16 10:14:10,693 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-09-16 10:14:10,693 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-09-16 10:14:10,693 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-09-16 10:14:10,726 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 10:14:10,727 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 10:14:10,727 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 10:14:10,727 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 10:14:10,767 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 10:14:10,768 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 10:14:10,768 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 10:14:10,774 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2019-09-16 10:14:10,775 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 10:14:10,780 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 10:14:10,782 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 10:14:10,782 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 10:14:10,849 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientGet
+2019-09-16 10:14:10,849 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group TestRpcxClientGet.
+2019-09-16 10:14:10,849 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 10:14:10,849 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=1 delayedStart=false
+2019-09-16 10:14:10,860 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 10:14:10,869 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 10:14:10,869 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 10:14:10,944 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ubuntu-virtual-machine
+2019-09-16 10:14:10,972 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2019-09-16 10:14:10,975 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-09-16 10:14:10,975 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-09-16 10:14:10,976 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-09-16 10:14:10,976 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-09-16 10:14:11,062 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 10:14:11,261 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 10:14:11,441 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2019-09-16 10:14:11,441 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2019-09-16 10:14:11,466 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 10:14:11,686 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 10:24:10,851 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 10:24:10,853 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 10:24:10,857 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 10:24:10,858 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 10:24:10,858 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 10:24:10,859 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 10:24:10,867 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 10:24:10,867 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 10:24:10,874 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 10:24:10,874 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 10:24:10,885 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-09-16 10:24:10,886 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:24:10,886 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:24:10,918 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:24:10,919 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 10:24:10,956 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 172.168.3.78:1099 
+2019-09-16 16:19:18,620 INFO o.a.j.e.RemoteJMeterEngineImpl: Stopping test ...
+2019-09-16 16:19:18,625 INFO o.a.j.e.RemoteJMeterEngineImpl: ... stopped
+2019-09-16 16:20:15,308 INFO o.a.j.e.RemoteJMeterEngineImpl: Stopping test ...
+2019-09-16 16:20:15,309 INFO o.a.j.e.RemoteJMeterEngineImpl: ... stopped
+2019-09-16 16:20:41,752 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:20:41,753 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:20:41,756 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:20:41,756 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:20:41,757 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:20:41,758 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:20:41,758 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:20:41,758 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:20:41,829 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 16:20:41,830 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 16:20:41,830 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 16:20:41,836 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2019-09-16 16:20:41,837 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 16:20:41,845 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 16:20:41,848 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 16:20:41,848 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 16:20:41,987 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientGet
+2019-09-16 16:20:41,987 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group TestRpcxClientGet.
+2019-09-16 16:20:41,987 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 16:20:41,988 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=1 delayedStart=false
+2019-09-16 16:20:42,006 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 16:20:42,008 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 16:20:42,009 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 16:20:42,203 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 16:20:42,404 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 16:20:42,598 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 16:20:42,794 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 16:21:38,061 INFO o.a.j.e.RemoteJMeterEngineImpl: Stopping test ...
+2019-09-16 16:21:38,063 INFO o.a.j.e.RemoteJMeterEngineImpl: ... stopped
+2019-09-16 16:21:38,069 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 16:21:38,070 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-4 sampler: Get Request
+2019-09-16 16:21:38,076 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 16:21:38,076 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-3 sampler: Get Request
+2019-09-16 16:21:38,077 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 16:21:38,077 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-5 sampler: Get Request
+2019-09-16 16:21:38,077 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 16:21:38,083 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 16:21:38,087 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 16:21:38,091 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 16:21:38,090 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-1 sampler: Get Request
+2019-09-16 16:21:38,097 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 16:21:38,097 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-2 sampler: Get Request
+2019-09-16 16:21:38,100 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 16:21:38,107 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 16:21:38,113 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-09-16 16:21:38,113 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:21:38,113 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:21:38,146 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:21:38,146 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:21:38,170 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:21:38,170 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:21:38,201 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:21:38,202 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:21:38,231 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 172.168.3.78:1099 
+2019-09-16 16:21:53,240 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:21:53,241 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:21:53,258 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:21:53,259 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:21:53,259 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:21:53,259 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:21:53,259 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:21:53,259 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:21:53,271 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 16:21:53,272 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 16:21:53,272 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 16:21:53,280 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2019-09-16 16:21:53,280 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 16:21:53,287 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 16:21:53,288 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 16:21:53,289 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 16:21:53,401 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientGet
+2019-09-16 16:21:53,401 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group TestRpcxClientGet.
+2019-09-16 16:21:53,401 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 16:21:53,402 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2019-09-16 16:21:53,412 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 16:21:53,422 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 16:21:53,422 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 16:21:53,511 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 16:21:53,612 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 16:21:53,711 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 16:21:53,815 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 16:21:53,911 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-6
+2019-09-16 16:21:54,011 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-7
+2019-09-16 16:21:54,110 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-8
+2019-09-16 16:21:54,210 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-9
+2019-09-16 16:21:54,309 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-10
+2019-09-16 16:31:53,406 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 16:31:53,407 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 16:31:53,410 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 16:31:53,410 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 16:31:53,411 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 16:31:53,411 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 16:31:53,411 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 16:31:53,411 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 16:31:53,413 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 16:31:53,413 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 16:31:53,418 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-7
+2019-09-16 16:31:53,418 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-7
+2019-09-16 16:31:53,419 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-9
+2019-09-16 16:31:53,420 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-9
+2019-09-16 16:31:53,422 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-6
+2019-09-16 16:31:53,423 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-6
+2019-09-16 16:31:53,423 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-10
+2019-09-16 16:31:53,423 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-10
+2019-09-16 16:31:53,421 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-8
+2019-09-16 16:31:53,424 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-8
+2019-09-16 16:31:53,432 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-09-16 16:31:53,432 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:31:53,432 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:31:53,540 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:31:53,540 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:31:53,576 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:31:53,576 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:31:53,620 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:31:53,620 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:31:53,663 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 172.168.3.78:1099 
+2019-09-16 16:42:41,171 INFO o.a.j.e.RemoteJMeterEngineImpl: Stopping test ...
+2019-09-16 16:42:41,172 INFO o.a.j.e.RemoteJMeterEngineImpl: ... stopped
+2019-09-16 16:42:52,559 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:42:52,559 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:42:52,630 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:42:52,630 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:42:52,632 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:42:52,632 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:42:52,633 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:42:52,633 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:42:52,645 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 16:42:52,645 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 16:42:52,645 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 16:42:52,649 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2019-09-16 16:42:52,650 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 16:42:52,654 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 16:42:52,655 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 16:42:52,655 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 16:42:52,768 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientSet
+2019-09-16 16:42:52,768 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group TestRpcxClientSet.
+2019-09-16 16:42:52,768 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 16:42:52,768 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2019-09-16 16:42:52,770 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 16:42:52,775 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 16:42:52,775 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 16:42:52,787 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 16:42:52,787 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 16:42:52,872 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-2
+2019-09-16 16:42:52,883 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-2
+2019-09-16 16:42:52,883 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-2
+2019-09-16 16:42:52,972 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-3
+2019-09-16 16:42:52,984 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-3
+2019-09-16 16:42:52,985 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-3
+2019-09-16 16:42:53,073 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-4
+2019-09-16 16:42:53,086 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-4
+2019-09-16 16:42:53,086 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-4
+2019-09-16 16:42:53,168 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-5
+2019-09-16 16:42:53,179 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-5
+2019-09-16 16:42:53,179 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-5
+2019-09-16 16:42:53,269 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-6
+2019-09-16 16:42:53,280 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-6
+2019-09-16 16:42:53,280 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-6
+2019-09-16 16:42:53,369 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-7
+2019-09-16 16:42:53,379 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-7
+2019-09-16 16:42:53,380 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-7
+2019-09-16 16:42:53,469 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-8
+2019-09-16 16:42:53,481 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-8
+2019-09-16 16:42:53,481 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-8
+2019-09-16 16:42:53,569 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-9
+2019-09-16 16:42:53,580 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-9
+2019-09-16 16:42:53,580 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-9
+2019-09-16 16:42:53,669 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-10
+2019-09-16 16:42:53,691 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-10
+2019-09-16 16:42:53,692 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-10
+2019-09-16 16:42:53,696 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-09-16 16:42:53,696 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:42:53,696 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:42:53,704 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:42:53,704 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:42:53,707 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:42:53,707 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:42:53,710 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:42:53,710 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:42:53,721 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 172.168.3.78:1099 
+2019-09-16 16:47:24,243 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:47:24,244 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:47:24,245 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:47:24,245 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:47:24,245 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:47:24,245 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:47:24,254 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:47:24,255 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:47:24,270 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 16:47:24,270 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 16:47:24,270 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 16:47:24,274 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2019-09-16 16:47:24,274 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 16:47:24,280 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 16:47:24,281 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 16:47:24,282 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 16:47:24,421 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientSet
+2019-09-16 16:47:24,421 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group TestRpcxClientSet.
+2019-09-16 16:47:24,421 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 16:47:24,421 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2019-09-16 16:47:24,422 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 16:47:24,428 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 16:47:24,428 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 16:47:24,439 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 16:47:24,440 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 16:47:24,522 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-2
+2019-09-16 16:47:24,533 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-2
+2019-09-16 16:47:24,533 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-2
+2019-09-16 16:47:24,622 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-3
+2019-09-16 16:47:24,637 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-3
+2019-09-16 16:47:24,637 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-3
+2019-09-16 16:47:24,722 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-4
+2019-09-16 16:47:24,735 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-4
+2019-09-16 16:47:24,735 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-4
+2019-09-16 16:47:24,822 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-5
+2019-09-16 16:47:24,834 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-5
+2019-09-16 16:47:24,834 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-5
+2019-09-16 16:47:24,925 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-6
+2019-09-16 16:47:24,937 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-6
+2019-09-16 16:47:24,937 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-6
+2019-09-16 16:47:25,023 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-7
+2019-09-16 16:47:25,038 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-7
+2019-09-16 16:47:25,038 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-7
+2019-09-16 16:47:25,122 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-8
+2019-09-16 16:47:25,138 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-8
+2019-09-16 16:47:25,138 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-8
+2019-09-16 16:47:25,222 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-9
+2019-09-16 16:47:25,235 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-9
+2019-09-16 16:47:25,235 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-9
+2019-09-16 16:47:25,322 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-10
+2019-09-16 16:47:25,338 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-10
+2019-09-16 16:47:25,338 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-10
+2019-09-16 16:47:25,345 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-09-16 16:47:25,346 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:47:25,346 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:47:25,352 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:47:25,352 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:47:25,359 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:47:25,359 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:47:25,365 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:47:25,365 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:47:25,381 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 172.168.3.78:1099 
+2019-09-16 16:48:44,462 INFO o.a.j.e.RemoteJMeterEngineImpl: Stopping test ...
+2019-09-16 16:48:44,462 INFO o.a.j.e.RemoteJMeterEngineImpl: ... stopped
+2019-09-16 16:48:55,100 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:48:55,100 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:48:55,100 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:48:55,100 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:48:55,101 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:48:55,101 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:48:55,118 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:48:55,118 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:48:55,133 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 16:48:55,133 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 16:48:55,133 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 16:48:55,139 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2019-09-16 16:48:55,142 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 16:48:55,145 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 16:48:55,146 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 16:48:55,146 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 16:48:55,252 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientGet
+2019-09-16 16:48:55,252 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group TestRpcxClientGet.
+2019-09-16 16:48:55,252 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 16:48:55,252 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=1 delayedStart=false
+2019-09-16 16:48:55,263 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 16:48:55,292 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 16:48:55,293 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 16:48:55,325 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 16:48:55,374 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 16:48:55,423 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 16:48:55,468 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 16:48:55,517 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-6
+2019-09-16 16:48:55,572 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-7
+2019-09-16 16:48:55,615 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-8
+2019-09-16 16:48:55,665 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-9
+2019-09-16 16:48:55,712 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-10
+2019-09-16 16:48:55,760 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-11
+2019-09-16 16:48:55,811 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-12
+2019-09-16 16:48:55,858 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-13
+2019-09-16 16:48:55,906 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-14
+2019-09-16 16:48:55,955 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-15
+2019-09-16 16:48:56,026 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-16
+2019-09-16 16:48:56,069 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-17
+2019-09-16 16:48:56,120 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-18
+2019-09-16 16:48:56,166 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-19
+2019-09-16 16:48:56,212 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-20
+2019-09-16 16:58:30,613 INFO o.a.j.e.RemoteJMeterEngineImpl: Stopping test ...
+2019-09-16 16:58:30,616 INFO o.a.j.e.RemoteJMeterEngineImpl: ... stopped
+2019-09-16 16:58:30,617 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-16
+2019-09-16 16:58:30,617 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-16 sampler: Get Request
+2019-09-16 16:58:30,618 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 16:58:30,618 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-2 sampler: Get Request
+2019-09-16 16:58:30,623 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-16
+2019-09-16 16:58:30,626 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-11
+2019-09-16 16:58:30,627 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-11 sampler: Get Request
+2019-09-16 16:58:30,628 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 16:58:30,629 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-4 sampler: Get Request
+2019-09-16 16:58:30,629 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-12
+2019-09-16 16:58:30,629 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-12 sampler: Get Request
+2019-09-16 16:58:30,630 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-19
+2019-09-16 16:58:30,631 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-12
+2019-09-16 16:58:30,631 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-11
+2019-09-16 16:58:30,642 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 16:58:30,630 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-19 sampler: Get Request
+2019-09-16 16:58:30,646 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 16:58:30,646 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-1 sampler: Get Request
+2019-09-16 16:58:30,647 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-20
+2019-09-16 16:58:30,647 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-20 sampler: Get Request
+2019-09-16 16:58:30,648 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-19
+2019-09-16 16:58:30,650 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 16:58:30,650 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-5 sampler: Get Request
+2019-09-16 16:58:30,652 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-13
+2019-09-16 16:58:30,652 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-13 sampler: Get Request
+2019-09-16 16:58:30,652 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 16:58:30,653 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 16:58:30,657 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-20
+2019-09-16 16:58:30,677 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 16:58:30,690 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-6
+2019-09-16 16:58:30,690 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-7
+2019-09-16 16:58:30,690 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-7 sampler: Get Request
+2019-09-16 16:58:30,691 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-10
+2019-09-16 16:58:30,691 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-17
+2019-09-16 16:58:30,691 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-17 sampler: Get Request
+2019-09-16 16:58:30,692 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-9
+2019-09-16 16:58:30,692 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-9 sampler: Get Request
+2019-09-16 16:58:30,692 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-8
+2019-09-16 16:58:30,692 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-8 sampler: Get Request
+2019-09-16 16:58:30,697 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-14
+2019-09-16 16:58:30,697 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-14 sampler: Get Request
+2019-09-16 16:58:30,701 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-17
+2019-09-16 16:58:30,703 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-8
+2019-09-16 16:58:30,704 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-7
+2019-09-16 16:58:30,707 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-18
+2019-09-16 16:58:30,707 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 16:58:30,707 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-3 sampler: Get Request
+2019-09-16 16:58:30,707 WARN o.a.j.t.JMeterThread: No operation pending
+2019-09-16 16:58:30,707 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-15
+2019-09-16 16:58:30,707 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-15 sampler: Get Request
+2019-09-16 16:58:30,707 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 16:58:30,710 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-9
+2019-09-16 16:58:30,710 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-15
+2019-09-16 16:58:30,711 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-14
+2019-09-16 16:58:30,716 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-13
+2019-09-16 16:58:30,745 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-18
+2019-09-16 16:58:30,745 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-10
+2019-09-16 16:58:30,748 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-6
+2019-09-16 16:58:30,752 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-09-16 16:58:30,753 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:58:30,753 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:58:30,769 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:58:30,769 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:58:30,794 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:58:30,794 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:58:30,826 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:58:30,826 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:58:30,855 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 172.168.3.78:1099 
+2019-09-16 16:58:36,798 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:58:36,798 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:58:36,807 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:58:36,808 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:58:36,808 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:58:36,808 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:58:36,811 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:58:36,811 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:58:36,823 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 16:58:36,824 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 16:58:36,825 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 16:58:36,871 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2019-09-16 16:58:36,871 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 16:58:36,875 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 16:58:36,876 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 16:58:36,876 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 16:58:37,036 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientGet
+2019-09-16 16:58:37,036 INFO o.a.j.e.StandardJMeterEngine: Starting 15 threads for group TestRpcxClientGet.
+2019-09-16 16:58:37,037 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 16:58:37,037 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=15 ramp-up=10 delayedStart=false
+2019-09-16 16:58:37,038 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 16:58:37,045 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 16:58:37,045 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 16:58:37,705 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 16:58:38,371 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 16:58:39,039 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 16:58:39,706 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 16:58:40,373 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-6
+2019-09-16 16:58:41,040 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-7
+2019-09-16 16:58:41,707 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-8
+2019-09-16 16:58:42,373 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-9
+2019-09-16 16:58:43,041 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-10
+2019-09-16 16:58:43,711 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-11
+2019-09-16 16:58:44,374 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-12
+2019-09-16 16:58:45,043 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-13
+2019-09-16 16:58:45,709 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-14
+2019-09-16 16:58:46,375 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-15
+2019-09-16 16:59:08,374 INFO o.a.j.e.RemoteJMeterEngineImpl: Stopping test ...
+2019-09-16 16:59:08,384 INFO o.a.j.e.RemoteJMeterEngineImpl: ... stopped
+2019-09-16 16:59:08,390 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 16:59:08,390 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-1 sampler: Get Request
+2019-09-16 16:59:08,429 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 16:59:08,430 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-2 sampler: Get Request
+2019-09-16 16:59:08,430 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 16:59:08,434 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 16:59:08,434 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-12
+2019-09-16 16:59:08,434 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-12 sampler: Get Request
+2019-09-16 16:59:08,442 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 16:59:08,444 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 16:59:08,444 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-3 sampler: Get Request
+2019-09-16 16:59:08,445 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-11
+2019-09-16 16:59:08,445 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-14
+2019-09-16 16:59:08,445 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-14 sampler: Get Request
+2019-09-16 16:59:08,445 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 16:59:08,445 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-6
+2019-09-16 16:59:08,445 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-6 sampler: Get Request
+2019-09-16 16:59:08,446 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-15
+2019-09-16 16:59:08,446 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-15 sampler: Get Request
+2019-09-16 16:59:08,446 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-12
+2019-09-16 16:59:08,447 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-6
+2019-09-16 16:59:08,447 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-14
+2019-09-16 16:59:08,447 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 16:59:08,451 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-13
+2019-09-16 16:59:08,451 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-13 sampler: Get Request
+2019-09-16 16:59:08,452 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-15
+2019-09-16 16:59:08,455 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-9
+2019-09-16 16:59:08,455 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-9 sampler: Get Request
+2019-09-16 16:59:08,455 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-7
+2019-09-16 16:59:08,455 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-8
+2019-09-16 16:59:08,455 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-10
+2019-09-16 16:59:08,455 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-10 sampler: Get Request
+2019-09-16 16:59:08,455 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-13
+2019-09-16 16:59:08,456 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-10
+2019-09-16 16:59:08,455 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-7
+2019-09-16 16:59:08,455 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-9
+2019-09-16 16:59:08,460 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-8
+2019-09-16 16:59:08,464 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 16:59:08,469 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-11
+2019-09-16 16:59:08,478 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 16:59:08,487 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-09-16 16:59:08,487 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:59:08,487 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:59:08,511 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:59:08,511 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:59:08,528 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:59:08,528 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:59:08,543 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:59:08,543 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 16:59:08,574 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 172.168.3.78:1099 
+2019-09-16 16:59:28,551 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:59:28,551 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:59:28,552 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:59:28,552 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:59:28,555 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:59:28,555 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:59:28,555 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 16:59:28,555 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 16:59:28,567 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 16:59:28,568 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 16:59:28,568 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 16:59:28,572 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2019-09-16 16:59:28,572 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 16:59:28,576 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 16:59:28,577 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 16:59:28,577 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 16:59:28,692 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientGet
+2019-09-16 16:59:28,692 INFO o.a.j.e.StandardJMeterEngine: Starting 13 threads for group TestRpcxClientGet.
+2019-09-16 16:59:28,692 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 16:59:28,692 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=13 ramp-up=10 delayedStart=false
+2019-09-16 16:59:28,693 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 16:59:28,697 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 16:59:28,697 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 16:59:29,462 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 16:59:30,232 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 16:59:31,000 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 16:59:31,768 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 16:59:32,539 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-6
+2019-09-16 16:59:33,307 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-7
+2019-09-16 16:59:34,076 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-8
+2019-09-16 16:59:34,846 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-9
+2019-09-16 16:59:35,613 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-10
+2019-09-16 16:59:36,383 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-11
+2019-09-16 16:59:37,151 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-12
+2019-09-16 16:59:37,920 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-13
+2019-09-16 17:02:19,817 INFO o.a.j.e.RemoteJMeterEngineImpl: Stopping test ...
+2019-09-16 17:02:19,844 INFO o.a.j.e.RemoteJMeterEngineImpl: ... stopped
+2019-09-16 17:02:19,848 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 17:02:19,849 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-5 sampler: Get Request
+2019-09-16 17:02:19,849 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-6
+2019-09-16 17:02:19,850 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-6 sampler: Get Request
+2019-09-16 17:02:19,850 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 17:02:19,853 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-8
+2019-09-16 17:02:19,853 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 17:02:19,853 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-4 sampler: Get Request
+2019-09-16 17:02:19,855 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-6
+2019-09-16 17:02:19,858 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-8
+2019-09-16 17:02:19,875 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 17:02:19,875 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-12
+2019-09-16 17:02:19,876 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-12 sampler: Get Request
+2019-09-16 17:02:19,877 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-10
+2019-09-16 17:02:19,881 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-12
+2019-09-16 17:02:19,877 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-10
+2019-09-16 17:02:19,890 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-11
+2019-09-16 17:02:19,890 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-11 sampler: Get Request
+2019-09-16 17:02:19,891 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-13
+2019-09-16 17:02:19,891 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-13 sampler: Get Request
+2019-09-16 17:02:19,897 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-11
+2019-09-16 17:02:19,892 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-7
+2019-09-16 17:02:19,898 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-7 sampler: Get Request
+2019-09-16 17:02:19,898 WARN o.a.j.t.JMeterThread: No operation pending
+2019-09-16 17:02:19,898 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 17:02:19,898 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-3 sampler: Get Request
+2019-09-16 17:02:19,898 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-7
+2019-09-16 17:02:19,900 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-13
+2019-09-16 17:02:19,905 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 17:02:19,905 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-1 sampler: Get Request
+2019-09-16 17:02:19,909 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 17:02:19,910 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-9
+2019-09-16 17:02:19,910 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-9 sampler: Get Request
+2019-09-16 17:02:19,910 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 17:02:19,910 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-2 sampler: Get Request
+2019-09-16 17:02:19,911 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 17:02:19,911 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-9
+2019-09-16 17:02:19,912 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 17:02:19,921 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-09-16 17:02:19,921 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 17:02:19,921 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 17:02:19,959 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 17:02:19,960 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 17:02:19,986 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 17:02:19,986 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 17:02:20,025 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 17:02:20,025 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 17:02:20,062 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 172.168.3.78:1099 
+2019-09-16 17:02:29,846 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 17:02:29,846 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 17:02:29,855 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 17:02:29,855 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 17:02:29,855 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 17:02:29,855 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 17:02:29,856 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 17:02:29,856 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 17:02:29,865 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 17:02:29,865 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 17:02:29,866 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 17:02:29,873 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2019-09-16 17:02:29,873 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 17:02:29,879 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 17:02:29,880 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 17:02:29,880 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 17:02:30,007 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientGet
+2019-09-16 17:02:30,007 INFO o.a.j.e.StandardJMeterEngine: Starting 12 threads for group TestRpcxClientGet.
+2019-09-16 17:02:30,007 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 17:02:30,007 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=12 ramp-up=10 delayedStart=false
+2019-09-16 17:02:30,008 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 17:02:30,025 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 17:02:30,026 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 17:02:30,841 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 17:02:31,674 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 17:02:32,508 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 17:02:33,347 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 17:02:34,175 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-6
+2019-09-16 17:02:35,006 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-7
+2019-09-16 17:02:35,838 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-8
+2019-09-16 17:02:36,672 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-9
+2019-09-16 17:02:37,504 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-10
+2019-09-16 17:02:38,338 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-11
+2019-09-16 17:02:39,174 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-12
+2019-09-16 17:10:11,495 INFO o.a.j.e.RemoteJMeterEngineImpl: Stopping test ...
+2019-09-16 17:10:11,497 INFO o.a.j.e.RemoteJMeterEngineImpl: ... stopped
+2019-09-16 17:10:11,498 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 17:10:11,498 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-1 sampler: Get Request
+2019-09-16 17:10:11,499 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 17:10:11,500 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 17:10:11,500 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-3 sampler: Get Request
+2019-09-16 17:10:11,500 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-10
+2019-09-16 17:10:11,500 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-10 sampler: Get Request
+2019-09-16 17:10:11,501 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-10
+2019-09-16 17:10:11,501 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 17:10:11,501 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 17:10:11,501 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-2 sampler: Get Request
+2019-09-16 17:10:11,501 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-12
+2019-09-16 17:10:11,501 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-12 sampler: Get Request
+2019-09-16 17:10:11,501 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-11
+2019-09-16 17:10:11,502 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-11 sampler: Get Request
+2019-09-16 17:10:11,502 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-6
+2019-09-16 17:10:11,502 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-6 sampler: Get Request
+2019-09-16 17:10:11,503 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-12
+2019-09-16 17:10:11,503 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 17:10:11,503 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-8
+2019-09-16 17:10:11,503 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-6
+2019-09-16 17:10:11,503 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-8 sampler: Get Request
+2019-09-16 17:10:11,503 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 17:10:11,503 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-5 sampler: Get Request
+2019-09-16 17:10:11,503 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-7
+2019-09-16 17:10:11,503 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-7 sampler: Get Request
+2019-09-16 17:10:11,503 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 17:10:11,503 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-4 sampler: Get Request
+2019-09-16 17:10:11,503 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-11
+2019-09-16 17:10:11,503 INFO o.a.j.t.JMeterThread: Stopping: 172.168.3.78:1099-TestRpcxClientGet 1-9
+2019-09-16 17:10:11,503 WARN o.a.j.t.JMeterThread: Interrupting: 172.168.3.78:1099-TestRpcxClientGet 1-9 sampler: Get Request
+2019-09-16 17:10:11,504 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-8
+2019-09-16 17:10:11,504 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-7
+2019-09-16 17:10:11,504 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 17:10:11,504 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-9
+2019-09-16 17:10:11,504 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-5
+2019-09-16 17:10:11,541 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-09-16 17:10:11,541 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 17:10:11,541 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 17:10:11,581 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 17:10:11,581 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 17:10:11,613 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 17:10:11,613 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 17:10:11,638 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 17:10:11,638 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 17:10:11,690 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 172.168.3.78:1099 
+2019-09-16 17:59:26,053 INFO o.a.j.e.RemoteJMeterEngineImpl: Stopping test ...
+2019-09-16 17:59:26,056 INFO o.a.j.e.RemoteJMeterEngineImpl: ... stopped
+2019-09-16 17:59:35,474 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 17:59:35,475 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 17:59:35,475 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 17:59:35,475 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 17:59:35,476 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 17:59:35,476 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 17:59:35,476 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 17:59:35,476 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 17:59:35,558 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 17:59:35,558 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 17:59:35,559 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 17:59:35,565 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2019-09-16 17:59:35,565 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 17:59:35,569 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 17:59:35,571 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 17:59:35,571 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 17:59:35,692 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientGet
+2019-09-16 17:59:35,692 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group TestRpcxClientGet.
+2019-09-16 17:59:35,692 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 17:59:35,692 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2019-09-16 17:59:35,693 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 17:59:35,693 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 17:59:35,693 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 18:09:35,692 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 18:09:35,693 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 18:09:35,700 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-09-16 18:09:35,700 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:09:35,700 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:09:35,741 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:09:35,741 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:09:35,765 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:09:35,765 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:09:35,794 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:09:35,794 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:09:35,827 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 172.168.3.78:1099 
+2019-09-16 18:10:47,690 INFO o.a.j.e.RemoteJMeterEngineImpl: Stopping test ...
+2019-09-16 18:10:47,691 INFO o.a.j.e.RemoteJMeterEngineImpl: ... stopped
+2019-09-16 18:10:55,754 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 18:10:55,754 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 18:10:55,762 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 18:10:55,762 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 18:10:55,762 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 18:10:55,762 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 18:10:55,762 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 18:10:55,762 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 18:10:55,776 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 18:10:55,776 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 18:10:55,776 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 18:10:55,781 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2019-09-16 18:10:55,785 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 18:10:55,790 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 18:10:55,790 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 18:10:55,790 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 18:10:55,908 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientSet
+2019-09-16 18:10:55,908 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group TestRpcxClientSet.
+2019-09-16 18:10:55,908 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 18:10:55,909 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2019-09-16 18:10:55,910 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 18:10:55,912 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 18:10:55,912 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 18:10:55,925 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 18:10:55,925 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 18:10:56,010 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-2
+2019-09-16 18:10:56,019 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-2
+2019-09-16 18:10:56,019 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-2
+2019-09-16 18:10:56,116 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-3
+2019-09-16 18:10:56,126 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-3
+2019-09-16 18:10:56,126 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-3
+2019-09-16 18:10:56,210 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-4
+2019-09-16 18:10:56,260 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-4
+2019-09-16 18:10:56,260 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-4
+2019-09-16 18:10:56,310 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-5
+2019-09-16 18:10:56,315 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-5
+2019-09-16 18:10:56,315 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-5
+2019-09-16 18:10:56,409 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-6
+2019-09-16 18:10:56,418 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-6
+2019-09-16 18:10:56,418 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-6
+2019-09-16 18:10:56,511 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-7
+2019-09-16 18:10:56,519 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-7
+2019-09-16 18:10:56,519 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-7
+2019-09-16 18:10:56,610 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-8
+2019-09-16 18:10:56,621 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-8
+2019-09-16 18:10:56,621 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-8
+2019-09-16 18:10:56,710 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-9
+2019-09-16 18:10:56,726 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-9
+2019-09-16 18:10:56,726 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-9
+2019-09-16 18:10:56,810 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-10
+2019-09-16 18:10:56,855 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-10
+2019-09-16 18:10:56,855 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-10
+2019-09-16 18:10:56,859 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-09-16 18:10:56,859 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:10:56,859 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:10:56,864 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:10:56,865 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:10:56,868 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:10:56,868 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:10:56,871 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:10:56,871 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:10:56,880 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 172.168.3.78:1099 
+2019-09-16 18:11:37,401 INFO o.a.j.e.RemoteJMeterEngineImpl: Stopping test ...
+2019-09-16 18:11:37,402 INFO o.a.j.e.RemoteJMeterEngineImpl: ... stopped
+2019-09-16 18:11:43,552 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 18:11:43,552 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 18:11:43,553 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 18:11:43,553 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 18:11:43,554 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 18:11:43,554 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 18:11:43,555 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 18:11:43,555 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 18:11:43,574 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 18:11:43,574 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 18:11:43,574 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 18:11:43,578 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2019-09-16 18:11:43,578 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 18:11:43,582 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 18:11:43,582 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 18:11:43,582 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 18:11:43,679 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientSet
+2019-09-16 18:11:43,680 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group TestRpcxClientSet.
+2019-09-16 18:11:43,680 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 18:11:43,680 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2019-09-16 18:11:43,680 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 18:11:43,685 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 18:11:43,686 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 18:11:43,695 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 18:11:43,695 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-1
+2019-09-16 18:11:43,781 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-2
+2019-09-16 18:11:43,790 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-2
+2019-09-16 18:11:43,790 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-2
+2019-09-16 18:11:43,881 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-3
+2019-09-16 18:11:43,894 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-3
+2019-09-16 18:11:43,894 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-3
+2019-09-16 18:11:43,981 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-4
+2019-09-16 18:11:43,991 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-4
+2019-09-16 18:11:43,991 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-4
+2019-09-16 18:11:44,081 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-5
+2019-09-16 18:11:44,092 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-5
+2019-09-16 18:11:44,092 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-5
+2019-09-16 18:11:44,181 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-6
+2019-09-16 18:11:44,191 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-6
+2019-09-16 18:11:44,191 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-6
+2019-09-16 18:11:44,280 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-7
+2019-09-16 18:11:44,295 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-7
+2019-09-16 18:11:44,295 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-7
+2019-09-16 18:11:44,382 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-8
+2019-09-16 18:11:44,394 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-8
+2019-09-16 18:11:44,394 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-8
+2019-09-16 18:11:44,482 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-9
+2019-09-16 18:11:44,493 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-9
+2019-09-16 18:11:44,493 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-9
+2019-09-16 18:11:44,582 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientSet 1-10
+2019-09-16 18:11:44,596 INFO o.a.j.t.JMeterThread: Thread is done: 172.168.3.78:1099-TestRpcxClientSet 1-10
+2019-09-16 18:11:44,596 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientSet 1-10
+2019-09-16 18:11:44,604 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-09-16 18:11:44,604 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:11:44,605 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:11:44,614 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:11:44,614 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:11:44,622 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:11:44,622 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:11:44,628 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:11:44,628 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:11:44,646 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 172.168.3.78:1099 
+2019-09-16 18:12:01,665 INFO o.a.j.e.RemoteJMeterEngineImpl: Stopping test ...
+2019-09-16 18:12:01,665 INFO o.a.j.e.RemoteJMeterEngineImpl: ... stopped
+2019-09-16 18:12:26,109 INFO o.a.j.e.RemoteJMeterEngineImpl: Stopping test ...
+2019-09-16 18:12:26,110 INFO o.a.j.e.RemoteJMeterEngineImpl: ... stopped
+2019-09-16 18:12:30,374 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 18:12:30,374 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 18:12:30,375 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 18:12:30,375 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 18:12:30,375 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 18:12:30,375 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 18:12:30,390 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 18:12:30,390 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 18:12:30,408 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 18:12:30,408 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 18:12:30,408 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 18:12:30,412 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2019-09-16 18:12:30,412 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 18:12:30,418 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 18:12:30,419 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 18:12:30,419 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 18:12:30,526 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientGet
+2019-09-16 18:12:30,526 INFO o.a.j.e.StandardJMeterEngine: Starting 3 threads for group TestRpcxClientGet.
+2019-09-16 18:12:30,526 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 18:12:30,526 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=3 ramp-up=2 delayedStart=false
+2019-09-16 18:12:30,527 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 18:12:30,528 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 18:12:30,528 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 18:12:31,194 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 18:12:31,861 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 18:22:30,526 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 18:22:30,527 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 18:22:30,530 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 18:22:30,531 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 18:22:30,531 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 18:22:30,531 INFO o.a.j.t.JMeterThread: Thread finished: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 18:22:30,537 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-09-16 18:22:30,538 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:22:30,538 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:22:30,559 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:22:30,559 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:22:30,579 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:22:30,579 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:22:30,602 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:22:30,602 INFO o.a.j.s.BatchSampleSender: Test Ended on 172.168.3.78:1099
+2019-09-16 18:22:30,627 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 172.168.3.78:1099 
+2019-09-16 18:24:51,523 INFO o.a.j.e.RemoteJMeterEngineImpl: Stopping test ...
+2019-09-16 18:24:51,523 INFO o.a.j.e.RemoteJMeterEngineImpl: ... stopped
+2019-09-16 18:25:03,815 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 18:25:03,815 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 18:25:03,815 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 18:25:03,815 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 18:25:03,819 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 18:25:03,819 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 18:25:03,825 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2019-09-16 18:25:03,825 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2019-09-16 18:25:03,837 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 172.168.3.78:1099 base '.'
+2019-09-16 18:25:03,837 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.3.172
+2019-09-16 18:25:03,837 INFO o.a.j.s.FileServer: Set new base='.'
+2019-09-16 18:25:03,842 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2019-09-16 18:25:03,843 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2019-09-16 18:25:03,846 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2019-09-16 18:25:03,847 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-09-16 18:25:03,848 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-09-16 18:25:03,967 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TestRpcxClientGet
+2019-09-16 18:25:03,967 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group TestRpcxClientGet.
+2019-09-16 18:25:03,967 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-09-16 18:25:03,967 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=3 delayedStart=false
+2019-09-16 18:25:03,968 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-1
+2019-09-16 18:25:03,970 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-09-16 18:25:03,970 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-09-16 18:25:04,568 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-2
+2019-09-16 18:25:05,170 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-3
+2019-09-16 18:25:05,768 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-4
+2019-09-16 18:25:06,368 INFO o.a.j.t.JMeterThread: Thread started: 172.168.3.78:1099-TestRpcxClientGet 1-5
